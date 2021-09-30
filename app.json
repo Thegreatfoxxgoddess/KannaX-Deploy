@@ -1,4 +1,7 @@
 {
+	"name": "KannaX",
+	"description": "Kawaii userbot",
+	"logo": "https://telegra.ph/file/f84f9c790b22b18e63e2d.jpg",
 	"env": {
 		"API_ID": {
 			"description": "Get this value from https://my.telegram.org"
@@ -16,16 +19,13 @@
 			"description": "[ Private Telegram Log Channel ID ], Note: Also add your Bot to LOG CHANNEL !"
 		},
 		"HEROKU_API_KEY": {
-			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account",
-			"required": false
+			"description": "[Required] Get a Heroku API key from http://dashboard.heroku.com/account"
 		},
 		"HU_STRING_SESSION": {
-			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`",
-			"required": false
+			"description": "Get this using 'https://repl.it/@Leorio/stringsessiongen' or `bash genStr`"
 		},
 		"BOT_TOKEN": {
-			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)",
-			"required": false
+			"description": "Get this from https://t.me/botfather and enable Inline Mode. (ADD YOUR BOT IN LOG CHANNEL)"
 		},
 		"UPSTREAM_REPO": {
 			"description": "fill only if you maintain a fork !, else leave empty",
@@ -33,8 +33,7 @@
 			"value": "https://github.com/fnixdev/KannaX"
 		},
 		"OWNER_ID": {
-			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
-			"required": false
+			"description": "Your user_id(s) e.g 123456789 or mutiple ids"
 		},
 		"PREF_BRANCH": {
 			"description": "Upstream repo preffered branch. (Dont Touch This !)",
@@ -46,13 +45,29 @@
 		{
 			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
 		},
-		{ "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git" },
-		{ "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip" },
-		{ "url": "https://github.com/code-rgb/heroku-buildpack-google-chrome" },
-		{ "url": "https://github.com/code-rgb/heroku-buildpack-chromedriver" },
-		{ "url": "https://github.com/chrismytton/heroku-buildpack-jq.git" },
-		{ "url": "https://github.com/justaprudev/heroku-buildpack-neofetch.git" },
-		{ "url": "https://github.com/code-pms/mediainfo_buildpack.git" },
-		{ "url": "heroku/python" }
+		{
+			"url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git"
+		},
+		{
+			"url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+		},
+		{
+			"url": "https://github.com/code-rgb/heroku-buildpack-google-chrome"
+		},
+		{
+			"url": "https://github.com/code-rgb/heroku-buildpack-chromedriver"
+		},
+		{
+			"url": "https://github.com/chrismytton/heroku-buildpack-jq.git"
+		},
+		{
+			"url": "https://github.com/justaprudev/heroku-buildpack-neofetch.git"
+		},
+		{
+			"url": "https://github.com/code-pms/mediainfo_buildpack.git"
+		},
+		{
+			"url": "heroku/python"
+		}
 	]
 }
