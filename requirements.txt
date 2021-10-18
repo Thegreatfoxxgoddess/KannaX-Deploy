@@ -1,6 +1,5 @@
 aiofiles>=0.6.0
 aiohttp[speedups]>=3.7.3
-a
 pyTelegramBotAPI
 beautifulsoup4>=4.9.1
 covid>=2.4.0
