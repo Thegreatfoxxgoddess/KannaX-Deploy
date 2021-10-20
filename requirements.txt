@@ -1,12 +1,12 @@
 aiofiles>=0.6.0
 aiohttp[speedups]>=3.7.3
-git+https://github.com/eternnoir/pyTelegramBotAPI
 beautifulsoup4>=4.9.1
 covid>=2.4.0
 cowpy>=1.1.0
 dnspython>=2.0.0
 gitpython>=3.1.11
 gdshortener
+pyTelegramBotAPI
 google-api-python-client>=1.12.8
 google-auth-httplib2>=0.0.4
 google-auth-oauthlib>=0.4.2
@@ -49,5 +49,7 @@ git+https://github.com/Nekos-life/Async-nekos.life-wrapper
 ruamel.yaml==0.17.2
 ujson>=4.0.1
 youtube-search-python==1.4.2
+youtube_search
+git+https://github.com/yt-dlp/yt-dlp.git
 git+https://github.com/fnixdev/google-images-download.git
 feedparser>=6.0.2
