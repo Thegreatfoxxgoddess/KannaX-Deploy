@@ -55,7 +55,7 @@
 			"url": "https://github.com/fnixdev/heroku-buildpack-google-chrome"
 		},
 		{
-			"url": "https://github.com/code-rgb/heroku-buildpack-chromedriver"
+			"url": "https://github.com/fnixdev/heroku-buildpack-chromedriver"
 		},
 		{
 			"url": "https://github.com/chrismytton/heroku-buildpack-jq.git"
