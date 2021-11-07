@@ -52,7 +52,7 @@
 			"url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
 		},
 		{
-			"url": "https://github.com/code-rgb/heroku-buildpack-google-chrome"
+			"url": "https://github.com/fnixdev/heroku-buildpack-google-chrome"
 		},
 		{
 			"url": "https://github.com/code-rgb/heroku-buildpack-chromedriver"
