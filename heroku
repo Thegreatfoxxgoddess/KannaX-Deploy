@@ -97,8 +97,6 @@ _startbot () {
     rm -rf $WORK_DIR
     cd "Kanna-X"
     git init > /dev/null 2>&1
-    disp "Installing Requirements"
-    pip3 install --no-cache-dir -Ur requirements.txt
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run
 }
